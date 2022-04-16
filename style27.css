@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+.popUp{
+	width: 50vw;
+	height: 50vh;
+	background-image: url(https://1.bp.blogspot.com/-LBVXzNIB4u8/YF2Ej1c3fTI/AAAAAAABGMk/V71HpKnmdrUW6KrAuYq_jKeQDcvPV1AmwCLcBGAsYHQ/s0/pyaterochka.jpg);
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	top: 250px;
+	left: 450px;
+	display: none;
+}
+.close{
+	cursor: pointer;
+}
+.popUp1{
+	width: 50vw;
+	height: 50vh;
+	background-image: url(https://www.tulapressa.ru/wp-content/images/551944565bca47.77473953.jpg);
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	top: 250px;
+	left: 450px;
+	display: none;
+}
+.close1{
+	cursor: pointer;
+}
+.upthing{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	background-color: #293032;
+}
+.img{
+	width: 90px;
+	height: 90px;
+	transition: 0.7s;
+	float: left;
+	margin-bottom: 50px;
+}
+.img:hover{
+	cursor: pointer;
+}
+.uptext{
+	font-size: 40px;
+	color: #efefef;
+	float: left;
+	padding-top: 10px;
+	padding-left: 40px;
+	opacity: 0;
+	transition: 0.7s;
+}
+.menu-itself{
+	height: 100vh;
+	width: 100px;
+	background-color: #293032DD;
+	transition: 0.7s;
+	display: none;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+.social{
+	cursor: pointer;
+}
+.Twitter{
+	margin-top: 50px;
+}
+.Discord{
+	margin-top: 50px;
+}
+.Telegram{
+	margin-top: 50px;
+}
+.FON{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.FON1{
+	height: 55vh;
+	background-image: url(https://gameguru.ru/clf/94/c5/0a/72/news.war_thunder_fulda_2.jpg);
+}
+.blackout{
+	height: 55vh;
+	background-color: #232323DD;
+}
+.buttons{
+	width: 700px;
+	height: 25px;
+	margin: auto;
+	padding-top: 200px;
+}
+.bu{
+	width: 300px;
+	border: none;
+	outline: none;
+	background-color: #23232300;
+	font-size: 49px;
+	color: #ef435fDD;
+	border: 1px solid #ef435fDD;
+	transition: 0.3s;
+}
+.bu + .bu{
+	margin-left: 50px;
+}
+.bu:hover{
+	cursor: pointer;
+	background-color: #ef435f;
+}
+.FON2{
+	background-color: #2d2d2d;
+}
+.gallery{
+	width: 200px;
+	height: 800px;
+	display: grid;
+	grid-gap: 35px;
+	grid-template-columns: 200px;
+	grid-template-rows: 200px 200px 200px 200px;
+	float: left;
+}
+.gallery1{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.i1{
+	background-image: url(https://i.playground.ru/p/m8M9B3CURwfMBBGUqtc9Xg.jpeg);
+}
+.i2{
+	background-image: url(https://i.playground.ru/p/UvLqatt1y_X-Q4hRJqooJA.jpeg);
+}
+.i3{
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/7b/war-thunder-warplane-voina-tank-samolet.jpg);
+}
+.i4{
+	background-image: url(https://i.playground.ru/i/pix/2288265/image.jpg);
+}
+.i{
+	border: 5px solid #ef435f;
+	background-size: cover;
+	background-position: center;
+}
+.gallery2{
+	margin-left: 450px;
+	margin-top: 50px;
+}
+.main1{
+	width: 500px;
+	height: 500px;
+	padding-top: 200px;
+	float: left;
+	margin-left: 400px;
+}
+.i5{
+	background-image: url(http://cdn-live.warthunder.com/uploads/e1/82f199ca0c83ae545c86ee4526c39e61b407f3/shot+2016.04.13+02.28.28.jpg);
+}
+.i6{
+	background-image: url(https://i.artfile.ru/3840x2160_1491921_[www.ArtFile.ru].jpg);
+}
+.i7{
+	background-image: url(https://on-desktop.com/wps/Games_War_Thunder_the_ship_took_the_hit_051492_.jpg);
+}
+.i8{
+	background-image: url(https://wallpapertops.com/walldb/original/f/8/e/112153.jpg);
+}
+.main-text{
+	text-align: center;
+	font-size: 40px;
+	color: #ef435f;
+}
+.main-timer-minutes{
+	text-align: center;
+	font-size: 28px;
+	color: #ef435f;
+	margin-top: 80px;
+}
+.main-timer-seconds{
+	text-align: center;
+	font-size: 28px;
+	color: #ef435f;
+	margin-top: 40px;
+}
+.ended{
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	font-size: 28px;
+	color: #efefef;
+	margin-top: 100px;
+	padding-left: 20px;
+	display: none;
+}
+.b1{
+	width: 450px;
+	height: 50px;
+	background-color: #3f3f3f;
+	color: #efefef;
+	font-size: 30px;
+	outline: none;
+	cursor: pointer;
+}
+.b11{
+	padding-left: 35px;
+	padding-top: 30px;
+}
+.dots{
+	width: 78px;
+	height: 20px;
+	margin: auto;
+}
+.d{
+	width: 15px;
+	height: 15px;
+	border: 2px solid black;
+	float: left;
+	border-radius: 50%;
+}
+.d + .d{
+	margin-left: 40px;
+}
+.FON4{
+	background-color: #232323;
+}
+.h1{
+	text-align: center;
+	font-size: 60px;
+	color: #4d4d4d;
+	padding-top: 50px;
+}
+.gallery4{
+	width: 1600px;
+	height: 850px;
+	overflow: hidden;
+	margin: auto;
+	position: relative;
+}
+.gallery3{
+	width: 1500px;
+	height: 750px;
+	display: grid;
+	grid-template-rows: 250px 250px 250px;
+	grid-template-columns: 250px 250px 250px 250px 250px 250px;
+	grid-gap: 20px;
+	padding-top: 100px;
+	margin:  auto;
+}
+.item{
+	background-size: cover;
+	background-position: center;
+	border: 5px solid #111111;
+}
+.item1{
+	background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1606228/pub_5e30f0dbb21da028c5552f12_5e310b2f2d2f53010a807f9e/scale_1200);
+}
+.item2{
+	background-image: url(https://gamebomb.ru/files/galleries/001/7/7d/108057.jpg);
+}
+.item3{
+	background-image: url(https://i.playground.ru/i/pix/1727200/image.jpg);
+}
+.item4{
+	background-image: url(https://i.playground.ru/i/pix/2148562/image.jpg);
+}
+.item5{
+	background-image: url(https://s1.1zoom.ru/big7/402/War_Thunder_Tanks_Airplane_M4_Sherman_American_533712_2032x1920.jpg);
+}
+.item6{
+	background-image: url(https://gamebomb.ru/files/galleries/001/c/ce/149541.jpg);
+}
+.item7{
+	background-image: url(https://on-desktop.com/wps/Games_War_Thunder_the_plane_vs_ship_051490_.jpg);
+}
+.item8{
+	background-image: url(https://s8.hostingkartinok.com/uploads/images/2015/10/350340382c875bd0ee20ce9b83e07db9.jpg);
+}
+.item9{
+	background-image: url(https://cdn-live.warthunder.com/uploads/ee/4b/2f/fcbdb8c5db6fdc3c8dcc97e2705127364d/War+Thunder+Super-Resolution+2018.02.24+-+22.21.28.64_1.jpg);
+}
+.item10{
+	background-image: url(https://on-desktop.com/wps/Games_War_Thunder_american_fighter_in_battle_051530_.jpg);
+}
+.item11{
+	background-image: url(https://gamebomb.ru/files/galleries/001/3/3c/149500.jpg);
+}
+.item12{
+	background-image: url(https://gamebomb.ru/files/galleries/001/1/15/108059.jpg);
+}
+.item13{
+	background-image: url(https://wargm.ru/img/db/26/3b/263b3dff420fb8faddbd2eb47c538092e.jpg);
+}
+.item14{
+	background-image: url(https://i.playground.ru/p/tps0Q3Mc0yVC-9ksfc91ZQ.jpeg);
+}
+.item15{
+	background-image: url(https://www.wallpaperflare.com/static/145/980/1012/war-thunder-airplane-gaijin-entertainment-video-games-wallpaper.jpg);
+}
+.item16{
+	background-image: url(https://i.playground.ru/p/9I7pObXkOdbP3QzKbRl9Lw.jpeg);
+}
+.item17{
+	background-image: url(https://i.artfile.ru/2560x1440_1321905_[www.ArtFile.ru].jpg);
+}
+.item18{
+	background-image: url(https://i.playground.ru/i/pix/2119165/image.jpg);
+}
+.FON5{
+	background-image: url(https://static.warthunder.ru/upload/image/media/wallpapers/june_12_2560x1140_logo_40bd41ccef1f340d1121453b0377272b.jpg);
+}
+.Slider{
+	width: 1300px;
+	height: 700px;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 200px;
+	position: relative;
+}
+.sli{
+	width: 1300px;
+	height: 500px;
+	background-color: #3d3d3d44;
+	position: absolute;
+	transition: 0.3s;
+	background-size: cover;
+	background-position: center;
+}
+.Slider1{
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/d/96/war-thunder-tuchi-raketa-vertoliot.jpg);
+	left: 0;
+}
+.Slider2{
+	background-image: url(https://wallpapertag.com/wallpaper/full/d/5/8/408005-download-war-thunder-wallpaper-1920x1080.jpg);
+	left: 1350px;
+}
+.dots{
+	width: 130px;
+	height: 40px;
+	padding-top: 560px;
+}
+.dot{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: black;
+	float: left;
+}
+.dot + .dot{
+	margin-left: 50px;
+}
+.dot1{
+	background-color: #195468;
+}
+.FON6{
+	background-image: url(https://allgamesatoz.com/wp-content/uploads/2018/12/war-thunder-5.jpg);
+}
+a{
+	color: #efefef;
+	text-decoration: none;
+}
+.WTdevs{
+	text-align: center;
+	padding-top: 200px;
+	color: #ef435f;
+}
+.FON3{
+	background-image: url(https://i.playground.ru/p/UvLqatt1y_X-Q4hRJqooJA.jpeg);
+}
+.blackout1{
+	height: 100vh;
+	background-color: #232323ED;
+}
+.form1{
+	width: 400px;
+	height: 260px;
+	margin:  auto;
+	padding-top: 80px;
+}
+.in1{
+	width: 400px;
+	height: 40px;
+	background-color: #3d3d3d;
+	text-align: center;
+	outline: none;
+	border: 2px solid #111111;
+}
+.in{
+	margin-top: 50px;
+}
+.in1 + .in1{
+	margin-top: 50px;
+}
+.podvalchik{
+	height: 25vh;
+	background-color: #1d1d1d;
+}
+.m-a-i-n{
+	width: 1200px;
+	height: 15vh;
+	margin:  auto;
+	padding-top: 50px;
+	text-align: center;
+	color: #efefef;
+	font-size: 25px;
+}
